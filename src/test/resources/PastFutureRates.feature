@@ -1,4 +1,4 @@
-Feature: Read past/future foreign exchange rates
+Feature: Read past and future foreign exchange rates
 
   Scenario Outline: Reading fx rates for given <date> should return status code <statusCode>
     Given User specifies a date "<date>"
